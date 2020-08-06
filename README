@@ -1,3 +1,17 @@
 README
 
 initial check
+
+
+sqlite3 direct terminal commands :
+
+.open <database name>
+.header on		## for good formatting
+.mode column  	## for good fomatting
+
+check column structure of table
+schema <table_name>
+
+pragma table_info('<table_name>')  ## gives column information, data type etc etc
+
+
